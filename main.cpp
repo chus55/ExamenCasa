@@ -64,6 +64,7 @@ void Juego()
 
     int ganarX = randomizer();
     int ganarY = randomizer();
+    int restantes = 10;
 
     PrintBoard(arreglo);
 
@@ -76,6 +77,7 @@ void Juego()
         cout<<"Ingrese la posicion y" <<endl;
         cin>>posY;
         }while(!validar(posX,posY));
+        restantes-=1;
         division();
         if(Logic(ganarX,ganarY,posX,posY,arreglo))
             x=10;
@@ -83,6 +85,8 @@ void Juego()
             cout<<"Ultimo disparo!" <<endl;
         else if(x==9)
             cout<<"Has perdido!" <<endl;
+        cout<<"Tiros restantes: ";
+        cout<<restantes<<endl;
     }
 }
 
