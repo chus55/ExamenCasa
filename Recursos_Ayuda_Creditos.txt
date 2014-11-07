@@ -1,0 +1,2 @@
+https://salomonrt.wordpress.com/tag/pasar-arreglos-bidimensionales-como-parametros-a-una-funcion-en-c/
+http://casicodigo.blogspot.com/2012/09/obtener-numeros-aleatorios-en-c-rand.html
